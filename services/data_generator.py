@@ -3,7 +3,7 @@ from models.user_model import UserModel
 import random
 
 
-fake = Faker()
+fake = Faker('pt-Br')
 
 class DataGenerator:
     @staticmethod
